@@ -1,5 +1,11 @@
 package Strings;
 
+/**
+ * Pedro Lucas
+ * pedro.lns.dev@gmail.com
+ * 06/02/2026
+ */
+
 import java.util.Scanner;
 
 public class StringToRoman {

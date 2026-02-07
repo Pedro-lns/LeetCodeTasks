@@ -1,5 +1,8 @@
-package Strings;
-
+/**
+ * Pedro Lucas
+ * pedro.lns.dev@gmail.com
+ * 06/02/2026
+ */
 public class ValidParentheses {
     public static void main(String[] args){
         String s1 = "()[]{}";
@@ -22,7 +25,7 @@ public class ValidParentheses {
 
                 char openning = stack[top--];
 
-                if(ch == '(' && openning != ')' ||
+                if(ch == ')' && openning != '(' ||
                    ch == ']' && openning != '[' ||
                    ch == '}' && openning != '{')
                     return false;
