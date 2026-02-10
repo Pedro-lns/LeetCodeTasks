@@ -1,12 +1,4 @@
 package Strings;
-
-/**
- * Pedro Lucas
- * pedro.lns.dev@gmail.com
- * 06/02/2026
- */
-
-
 //Given two binary strings a and b, return their sum as a binary string.
 
 import java.util.Scanner;
