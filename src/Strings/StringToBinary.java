@@ -1,6 +1,6 @@
 package Strings;
 //Given two binary strings a and b, return their sum as a binary string.
-
+ 
 import java.util.Scanner;
 
 public class StringToBinary {
