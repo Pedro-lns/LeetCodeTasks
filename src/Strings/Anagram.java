@@ -9,7 +9,6 @@ public class Anagram {
 
         System.out.println(isAnagram(s,t));
     }
-
     /*
     public static boolean isAnagram(String s, String t){
         String limpaS1 = s.replaceAll("\\s", "").toLowerCase();
