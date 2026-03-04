@@ -24,6 +24,7 @@ public class RemoveDuplicates {
     //My method
     public static int removeDuplicates(List<Integer> nums, List<Integer> expectedNums){
         int k = 0;
+
         for(int i = 0 ; i < nums.size(); i++){
             if(!expectedNums.contains(nums.get(i)))
                 expectedNums.add(nums.get(i));
@@ -35,20 +36,16 @@ public class RemoveDuplicates {
     }
 
     //Method from leetcode task
-    //Ainda não terminei, à corrigir!!!
     public static int removeDuplicates(int[] nums){
-        int curr = 1;
-        int k = 0;
+       int k = 1;
 
-        for(int i = 1 ; i < nums.length; i++){
-            if(nums[i] != nums[i-1]){
-                nums[curr] = nums[i];
-                curr++;
-            }
-            else
-                k++;
-        }
+       for(int i = 1 ; i < nums.length; i++){
+           if(nums[i] != nums[k-1]){
+               nums[k] = nums[i];
+               k++;
+           }
+       }
 
-        return k;
+       return k;
     }
 }
